@@ -1,0 +1,805 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    width: 100vmax;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vmax;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 5rem auto 5rem;
+}
+
+nav > .nav-items > a{
+    margin-top: 2rem;
+    padding: 2vw;
+    color: rgb(73, 67, 67);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav > .nav-items > a:last-child{
+    border: 1px solid #fff;
+    border-radius: 7px;
+    padding: 7px 13px 7px 13px;
+    margin-right: 4rem;
+    background: rgb(243, 76, 76);
+    color: #fff;
+}
+
+.display{
+    display: none;
+}
+.display1{
+    display: none;
+}
+
+section.section1{
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 8vh;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+p{
+    color: rgba(65, 65, 65, 0.508);
+}
+
+.btn{
+    background: hsl(229, 45%, 55%);
+    color: rgba(255, 255, 255, 0.837);
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 7px 10px 7px 10px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.btn1{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 7px 10px 7px 10px;
+    border-radius: 4px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+div.firstSecItem{
+    margin-left: .5vw;
+}
+
+div.secondSecItem > img{
+    width: 400px;
+    margin-right: 6vw;
+    margin-top: 4rem;
+}
+
+div.secondSecItem > div.space{
+    width: 380px;
+    height: 200px;
+    background: hsl(229, 45%, 55%);
+    border: 1px solid hsl(229, 8%, 60%);
+    border-radius: 10px 20px 30px 40%;
+    position: relative;
+    top: -160px;
+    left: 6.9rem;
+    z-index: -1;
+}
+
+section.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+section.section2 > span > a{
+    color: rgb(87, 85, 85);
+    text-decoration: none;
+    padding-right: 3.5rem;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(58, 57, 57, 0.419);
+}
+
+section.section2 > span > a:focus{
+    border-bottom: 1px solid rgb(228, 8, 8);
+}
+
+section.section3{
+    display: flex;
+    flex-direction: row;
+}
+
+section.section3 > div.firstDiv > img{
+    width: 400px;
+    margin-left: 6vw;
+    margin-top: 4rem;
+}
+
+section.section3 > div.firstDiv > div.space{
+    width: 400px;
+    height: 200px;
+    background: hsl(229, 45%, 55%);
+    border: 1px solid hsl(229, 8%, 60%);
+    border-radius: 10px 20px 40% 10px;
+    position: relative;
+    top: -120px;
+    right: 100px;
+    z-index: -1;
+}
+
+section.section3 > .secondDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: -120px;
+    margin-left: 24vw;
+}
+
+section.section3 > .secondDiv > button{
+    background: hsl(229, 45%, 55%);
+    width: 90px;
+    padding: 7px 15px;
+    color: hsl(0, 0%, 97%);
+    border: 1px solid hsl(229, 8%, 60%);
+    border-radius: 1em;
+}
+
+section.section4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+section.section4 > div.div4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 5vw;
+}
+
+section.section4 > div.div4 > span{
+    margin-top: 50px;
+    margin-right: 3vw;
+    padding: 3vw;
+    border: 1px solid #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 7px;
+}
+
+section.section4 > div.div4 > span.span4{
+    height: 52vh;
+}
+
+
+section.section4 > div.div4 > span.span5{
+    margin-top: 7rem;
+    height: 52vh;
+}
+
+section.section4 > div.div4 > span.span6{
+    margin-top: 11rem;
+    height: 52vh;
+}
+
+section.section4 > div.div4 > span > p{
+    padding-bottom: 30px;
+    border-bottom: 1px dotted hsl(229, 8%, 60%);
+}
+
+section.section4 > div.div4 > span > button{
+    margin-top: 7px;
+    border: 1px solid hsl(229, 8%, 60%);
+    border-radius: .5rem;
+    padding: 7px 10px 5px 10px;
+    background: hsl(229, 45%, 55%);
+    width: 12rem;
+    color: #fff;
+}
+
+section.section5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+section.section5 > .div1{
+    text-align: center;
+}
+
+section.section5 > .div2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+section.section5 > .div2 > span:first-child{
+    border-top: 1px solid hsl(229, 8%, 60%);
+    margin-top: 20px;
+}
+
+section.section5 > .div2 > span{
+   border-bottom: 1px solid hsl(229, 8%, 60%);
+   margin-right: 35vw;
+}
+
+section.section5 > .div2 > span > h4{
+    display: inline-block;
+}
+
+section.section5 > .div2 > span.span1 > h4{
+    margin-right: 14rem;
+}
+
+section.section5 > .div2 > span.span2 > h4{
+    margin-right: 8rem;
+}
+
+section.section5 > .div2 > span.span3 > h4{
+    margin-right: 13.3rem;
+}
+
+section.section5 > .div2 > span.span4 > h4{
+    margin-right: 5.6rem;
+}
+
+.align{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 28vw;
+}
+
+section.section5 > .div2 > .button{
+    box-sizing: content-box;
+    width: fit-content;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 8rem;
+    background: hsl(229, 45%, 55%);
+    color: rgba(255, 255, 255, 0.837);
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 14px 10px 14px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+
+footer.footer{
+    width: 100vw;
+}
+
+footer.footer > div.div{
+  background: hsl(229, 45%, 55%);
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  margin-top: 40px;
+}
+
+footer.footer > div.div > form > input{
+    border: 1px solid hsl(229, 45%, 55%);
+    border-radius: .5rem;
+    padding: 10px;
+}
+
+footer.footer > div.div > form > input::placeholder{
+    font-size: 10px;
+    color: rgb(187, 183, 183);
+    text-align: center;
+}
+
+footer.footer > div.div > form > button{
+    background: rgba(181, 45, 45, 0.939);
+    margin-left: 10px;
+    border: 1px solid rgba(181, 45, 45, 0.939);
+    color: #fff;
+    border-radius: .5rem;
+    padding: 10px;
+}
+
+footer.footer > section{
+    background: hsl(229, 31%, 21%);
+    display: flex;
+    justify-content: space-between;
+    padding-right: 7rem;
+}
+
+footer.footer > section > div.div1{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+footer.footer > section > div.div1 > span.spine > img{
+   width: 100px;
+   margin-right: 5vw;
+   margin-left: 7rem;
+   padding: 10px;
+}
+
+footer.footer > section > div.div1 > .span2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+footer.footer > section > div.div1 >.span2 > a{
+    color: rgba(255, 255, 255, 0.624);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-left: 2rem;
+}
+
+footer.footer > section > div.div2 > img{
+    width: 18px;
+    padding-top: 5px;
+}
+
+footer.footer > section > div.div2 > img:first-child{
+    margin-right: 3rem;
+}
+
+.none{
+    display: none;
+}
+
+@media(max-width: 1230px){
+    .align{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 34vw;
+    }
+}
+
+
+@media(max-width: 930px){
+    nav > .nav-items{
+        display: none;
+    }
+    
+    .display{
+        display: inline;
+    }
+
+    .display1{
+        display: none;
+    }
+
+    .active{
+        display: inline;
+    }
+
+    section.section1{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin-left: 28vw;
+        width: 400px;   
+    }
+
+    section.section1 > .firstSecItem{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    section.section1 > .firstSecItem > .span1{
+        display: flex;
+        justify-content: center;
+        margin-left: -4rem;
+    }
+
+    section.section1 > .firstSecItem > .span1 > button{
+        box-sizing: content-box !important;
+    }
+
+    .btn{
+        background: hsl(229, 8%, 60%);
+        color: rgba(255, 255, 255, 0.837);
+        text-decoration: none;
+        border: 1px solid white;
+        margin-right: 10px;
+        padding: 14px 18px 14px 18px;
+        border-radius: 4px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+    
+    .btn1{
+        text-decoration: none;
+        border: 1px solid white;
+        margin-left: 10px;
+        padding:  14px 18px 14px 18px;
+        border-radius: 4px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+
+    section.section3{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    div.secondSecItem{
+        height: 25rem;
+    }
+
+    section.section3 > div.firstDiv{
+        height: 25rem;
+    }
+
+    section.section2{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        margin-left: 24vw;
+        width: 400px;   
+    }
+
+    section.section2 > span{
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.section2 > span > a{
+        margin-top: 20px;
+    }
+
+    section.section2 > span > a:first-child{
+        border-top: 1px solid rgba(58, 57, 57, 0.419);
+        padding-top: 20px;
+    }
+
+    section.section2 > span > a:focus{
+        border-bottom: 4px solid rgb(228, 8, 8);
+    }
+    .align{
+        display: inline-block;
+        width: initial;
+    }
+
+    section.section3 > .secondDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 3vw;
+        margin-left: 24vw;
+        width: 400px;   
+    }
+
+    section.section3 > .secondDiv > button{
+        display: none;
+    }
+
+
+    div.secondSecItem > img{
+        margin-top: 2rem;
+    }
+    
+    div.firstSecItem{
+        margin-top: 1rem;
+    }
+
+    section.section4 > div.div4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+
+    section.section4 > div.div4 > span{
+        margin-top: 50px;
+        padding: 3vw;
+        border: 1px solid #fff;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 7px;
+        width: 30rem;
+    }
+
+    section.section4 > div.firstSection{
+        margin-top: 20px;
+        margin-left: 24vw;
+        width: 400px;   
+    }
+    
+    section.section4 > div.div4 > span.span4{
+        height: 55vh;
+    }
+    
+    
+    section.section4 > div.div4 > span.span5{
+        margin-top: 3rem;
+        height: 55vh;
+    }
+    
+    section.section4 > div.div4 > span.span6{
+        margin-top: 3rem;
+        height: 55vh;
+    }
+    
+    section.section4 > div.div4 > span > p{
+        padding-bottom: 30px;
+        border-bottom: 1px dotted hsl(229, 8%, 60%);
+    }
+    
+    section.section4 > div.div4 > span > button{
+        margin-top: 7px;
+        border: 1px solid hsl(229, 8%, 60%);
+        border-radius: .5rem;
+        padding: 7px 10px 5px 10px;
+        background: hsl(229, 8%, 60%);
+        width: 12rem;
+    }
+
+    section.section5 > .div2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 27vw;
+    }
+
+    section.section5 > .div2 > span{
+        border-bottom: 1px solid hsl(229, 8%, 60%);
+        margin-right: 18vw;
+    }
+
+    section.section5 > .div2 > span > h4{
+        display: inline-block;
+    }
+    
+     section.section5 > .div2 > span.span1 > h4{
+        margin-right: 14rem;
+    }
+    
+    section.section5 > .div2 > span.span2 > h4{
+        margin-right: 8rem;
+    }
+    
+    section.section5 > .div2 > span.span3 > h4{
+        margin-right: 13.3rem;
+    }
+    
+    section.section5 > .div2 > span.span4 > h4{
+        margin-right: 5.6rem;
+    } 
+    
+}
+
+@media(max-width: 740px){
+    .none{
+        display: inline;
+    }
+
+
+    footer.footer > div.div > form > input{
+        border: 1px solid hsl(229, 45%, 55%);
+        border-radius: .5rem;
+        width: 80vw;
+    }
+    
+    footer.footer > div.div > form > input::placeholder{
+        font-size: 15px;
+        color: rgb(187, 183, 183);
+        text-align: start;
+        padding: 20px 20px 20px 20px;
+    }
+    
+    footer.footer > div.div > form > button{
+        background: rgba(181, 45, 45, 0.939);
+        margin-left: 0;
+        margin-bottom: 70px;
+        width: 80vw;
+        border: 1px solid rgba(181, 45, 45, 0.939);
+        color: #fff;
+        border-radius: .5rem;
+        padding: 20px;
+    }
+
+    footer.footer > div.div > form > button{
+        margin-top: 20px;
+    }
+
+    footer.footer > section{
+        background: hsl(229, 31%, 21%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 7rem;
+        padding-top: 40px;
+    }
+
+    footer.footer > section > div.div1{
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer.footer > section > div.div1 > span.spine{
+        display: flex;
+        justify-content: center;
+    }
+
+    footer.footer > section > div.div1 > span.spine > img{
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    footer.footer > section > div.div1 > .span2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 4rem;
+    }
+
+    footer.footer > section > div.div1 > .span2 > a{
+        padding-bottom: 40px;
+        font-size: 20px;
+    }
+
+    footer.footer > section > div.div2{
+        display: flex;
+        justify-content: center;
+        margin-left: 6rem;
+        padding-bottom: 40px;
+    }
+}
+
+@media(max-width: 700px){
+    section.section5 > .div2 > span{
+        border-bottom: 1px solid hsl(229, 8%, 60%);
+        margin-right: 14vw;
+    }
+
+    section.section5 > .div2 > span > h4{
+        display: inline-block;
+    }
+    
+     section.section5 > .div2 > span.span1 > h4{
+        margin-right: 12rem;
+    }
+    
+    section.section5 > .div2 > span.span2 > h4{
+        margin-right: 6rem;
+    }
+    
+    section.section5 > .div2 > span.span3 > h4{
+        margin-right: 11.3rem;
+    }
+    
+    section.section5 > .div2 > span.span4 > h4{
+        margin-right: 3.6rem;
+    } 
+}
+
+@media(max-width: 699px){
+
+    footer.footer{
+        width: 100vmax;
+    }
+
+    footer.footer > div.div{
+        width: 100vmax;
+    }
+}
+
+@media(max-width: 692px){
+    nav{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       margin: 2rem 20px auto 5rem;
+    }
+  nav > header{
+      margin-right: 50px;
+  }
+
+  nav > .nav-toggle{
+    position: absolute;
+    left: 520px;
+    right: 10px;
+    bottom: 5px;
+    top: 35px;
+  }
+
+  nav > div.nav-toggle{
+      margin-left: 50px;
+  }
+  
+} 
+
+@media(max-width: 600px){
+    section.section5 > .div1{
+        text-align: center;
+        margin-left: 6rem;
+        width: 400px;
+    }
+    
+    section.section5 > .div2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 4rem;
+        width: 500px;
+    }
+
+    section.section5 > .div2 > span{
+        border-bottom: 1px solid hsl(229, 8%, 60%);
+        margin-right: 8vw;
+    }
+
+    section.section5 > .div2 > span > h4{
+        display: inline-block;
+    }
+    
+     section.section5 > .div2 > span.span1 > h4{
+        margin-right: 14.5rem;
+    }
+    
+    section.section5 > .div2 > span.span2 > h4{
+        margin-right: 8.3rem;
+    }
+    
+    section.section5 > .div2 > span.span3 > h4{
+        margin-right: 13.5rem;
+    }
+    
+    section.section5 > .div2 > span.span4 > h4{
+        margin-right: 5.9rem;
+    } 
+
+    section.section5 > .div2 > .button{
+        margin-left: 13.9rem;
+    }
+}
+
+
+@media(max-width: 530px){
+    div.secondSecItem > img {
+        margin-left: 5rem;
+    }
+
+   div.secondSecItem > div.space{
+    width: 380px;
+    height: 200px;
+    background: hsl(229, 45%, 55%);
+    border: 1px solid hsl(229, 8%, 60%);
+    border-radius: 10px 20px 30px 40%;
+    position: relative;
+    top: -160px;
+    left: 10.5rem;
+    z-index: -1;
+  }
+} 
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
