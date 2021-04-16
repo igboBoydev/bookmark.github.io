@@ -3,20 +3,25 @@
 }
 
 html{
-    width: 100vmax;
+    width: 100vw;
 }
 
 body{
     margin: 0;
     padding: 0;
-    width: 100vmax;
+    width: 100vw;
 }
 
 nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 2rem 5rem auto 5rem;
+    width: 100%;
+    padding: 3rem;
+}
+
+nav > header{
+    padding-left: 2.5rem;
 }
 
 nav > .nav-items > a{
@@ -92,10 +97,10 @@ div.secondSecItem > div.space{
     height: 200px;
     background: hsl(229, 45%, 55%);
     border: 1px solid hsl(229, 8%, 60%);
-    border-radius: 10px 20px 30px 40%;
+    border-radius: 0 0 0 40%;
     position: relative;
     top: -160px;
-    left: 6.9rem;
+    left: 5.8rem;
     z-index: -1;
 }
 
@@ -138,7 +143,7 @@ section.section3 > div.firstDiv > div.space{
     border-radius: 10px 20px 40% 10px;
     position: relative;
     top: -120px;
-    right: 100px;
+    right: 0;
     z-index: -1;
 }
 
@@ -427,7 +432,76 @@ footer.footer > section > div.div2 > img:first-child{
         border-radius: 4px;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     }
+
+    body{
+        margin-top: -57px;
+        padding-top: 60px;
+    }
     
+    .showLinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 60px;
+        font-size: 24px;
+        margin-left: -8rem;
+        margin-right: 6rem;
+        width: 90vw;
+    }
+
+    .navBackground{
+        background:  hsla(229, 62%, 23%, 0.823);
+        position: fixed;
+    }
+
+    .showLinks > .a:first-child{
+        border-top: 1px solid rgba(255, 255, 255, 0.741);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.741);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .showLinks > a:nth-child(2){
+        border-bottom: 1px solid rgba(255, 255, 255, 0.741);
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .showLinks > a:nth-child(3){
+        border-bottom: 1px solid rgba(255, 255, 255, 0.741);
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+
+    .a{
+        box-sizing: content-box;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .a:nth-child(4){
+        border: 1px solid #fff;
+        padding: 5px 30px 5px 30px;
+        border-radius: 5px;
+        font-size: 20px;
+        text-align: center;
+        margin-left: -.6rem;
+    }
+    
+    .showLinks > .dav > a:first-child{
+        margin-right: 3rem;
+    }
+
+    .showLinks > .dav{
+        margin-top: 10vw;
+    }
+
+    .showLinks > .dav > a{
+        border: none;
+    }
     .btn1{
         text-decoration: none;
         border: 1px solid white;
@@ -593,6 +667,9 @@ footer.footer > section > div.div2 > img:first-child{
         display: inline;
     }
 
+    footer.footer > div.div {
+        padding-top: 50px;
+    }
 
     footer.footer > div.div > form > input{
         border: 1px solid hsl(229, 45%, 55%);
@@ -669,6 +746,8 @@ footer.footer > section > div.div2 > img:first-child{
 }
 
 @media(max-width: 700px){
+
+
     section.section5 > .div2 > span{
         border-bottom: 1px solid hsl(229, 8%, 60%);
         margin-right: 14vw;
@@ -711,7 +790,7 @@ footer.footer > section > div.div2 > img:first-child{
        display: flex;
        flex-direction: row;
        justify-content: space-between;
-       margin: 2rem 20px auto 5rem;
+       margin-right: 14rem;
     }
   nav > header{
       margin-right: 50px;
@@ -722,16 +801,41 @@ footer.footer > section > div.div2 > img:first-child{
     left: 520px;
     right: 10px;
     bottom: 5px;
-    top: 35px;
+    top: 55px;
   }
 
   nav > div.nav-toggle{
       margin-left: 50px;
   }
+
+  .showLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+  }
   
 } 
 
+@media(max-width: 632px){
+    footer.footer{
+        width: 640px;
+    }
+
+    footer.footer > div.div{
+        width: 640px;
+    }
+}
+
 @media(max-width: 600px){
+    section.section4 > div.div4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5rem;
+    }
+
     section.section5 > .div1{
         text-align: center;
         margin-left: 6rem;
@@ -779,21 +883,60 @@ footer.footer > section > div.div2 > img:first-child{
 
 @media(max-width: 530px){
     div.secondSecItem > img {
-        margin-left: 5rem;
+        margin-left: 3rem;
     }
 
    div.secondSecItem > div.space{
-    width: 380px;
+    width: 320px;
     height: 200px;
     background: hsl(229, 45%, 55%);
     border: 1px solid hsl(229, 8%, 60%);
-    border-radius: 10px 20px 30px 40%;
+    border-radius: 0 0 0 40%;
     position: relative;
-    top: -160px;
-    left: 10.5rem;
+    top: -165px;
+    left: 11.9rem;
     z-index: -1;
   }
 } 
+
+@media(max-width: 400px){
+  section.section3 > .secondDiv {
+    margin-left: 32vw ;
+    width: 400px;
+  }
+
+  section.section4 > div.firstSection {
+    margin-left: 32vw;
+    width: 400px;
+  }
+
+  .showLinks > .dav{
+    margin-top: 50vw;
+  }
+
+  div.firstSecItem {
+    margin-left: 8.5vw;
+    width: 400px;
+  }
+
+  section.section2 {
+    margin-left: 33vw;
+  }
+
+  section.section5 > .div2 {
+    margin-left: 7rem;
+    width: 500px;
+  }
+
+  section.section5 > .div2 > .button {
+    margin-left: 9.9rem;
+  }
+
+  footer.footer > section > div.div1 > span.spine > img {
+    margin-right: 5vw;
+    margin-left: 5rem;
+  }
+}
 
 .attribution {
     font-size: 11px;

@@ -2,12 +2,27 @@ const harmburger = document.querySelector('.image1');
 const closeIcon = document.querySelector('.image2');
 const img = document.querySelectorAll('.img');
 const img1 = document.querySelectorAll('.img1');
-const p = document.querySelectorAll('.par')
+const nav = document.querySelector('nav');
+const p = document.querySelectorAll('.par');
+const div = document.querySelector('.nav-links');
+const aLinks = document.querySelector('.nav-links').children;
 harmburger.addEventListener('click', function(){
     harmburger.classList.add('display1');
     harmburger.classList.remove('active')
     closeIcon.classList.add('active');
     closeIcon.classList.remove('display1');
+    div.classList.add('showLinks');
+    div.classList.remove('display1');
+    nav.classList.add('navBackground')
+    if(div){
+        for(let i = 0; i < aLinks.length; i++){
+            aLinks[i].classList.add('a');
+        }
+    }else{
+        for(let i = 0; i < aLinks.length; i++){
+            aLinks[i].classList.remove('a');
+        } 
+    }
 })
 
 closeIcon.addEventListener('click', function(){
@@ -15,7 +30,12 @@ closeIcon.addEventListener('click', function(){
     harmburger.classList.add('active');
     closeIcon.classList.add('display1');
     closeIcon.classList.remove('active');
+    div.classList.remove('showLinks');
+    div.classList.add('display1');
+    nav.classList.remove('navBackground');
 })
+
+
 
 for(let i = 0; i < img.length; i++){
     img[i].addEventListener('click', () => {
