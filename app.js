@@ -6,6 +6,16 @@ const nav = document.querySelector('nav');
 const p = document.querySelectorAll('.par');
 const div = document.querySelector('.nav-links');
 const aLinks = document.querySelector('.nav-links').children;
+const firstDropdown = document.querySelector('a.dropdownf');
+const secondDropdown = document.querySelector('a.dropdowns');
+const thirdDropdown = document.querySelector('a.dropdownt');
+const firstDisplay = document.querySelector('section.section3.simple');
+const secondDisplay = document.querySelector('section.section3.speedy');
+const thirdDisplay = document.querySelector('section.section3.easy');
+
+
+
+
 harmburger.addEventListener('click', function(){
     harmburger.classList.add('display1');
     harmburger.classList.remove('active')
@@ -35,6 +45,23 @@ closeIcon.addEventListener('click', function(){
     nav.classList.remove('navBackground');
 })
 
+firstDropdown.addEventListener('click', function(){
+    firstDisplay.style.display = "inline-flex"
+    secondDisplay.style.display = "none"
+    thirdDisplay.style.display = "none"
+})
+
+secondDropdown.addEventListener('click', function(){
+    firstDisplay.style.display = "none"
+    secondDisplay.style.display = "inline-flex"
+    thirdDisplay.style.display = "none"
+})
+
+thirdDropdown.addEventListener('click', function(){
+    firstDisplay.style.display = "none"
+    secondDisplay.style.display = "none"
+    thirdDisplay.style.display = "inline-flex"
+})
 
 
 for(let i = 0; i < img.length; i++){

@@ -104,6 +104,14 @@ div.secondSecItem > div.space{
     z-index: -1;
 }
 
+section.section3.easy{
+    display: none;
+}
+
+section.section3.speedy{
+    display: none;
+}
+
 section.section2{
     display: flex;
     flex-direction: column;
@@ -115,7 +123,7 @@ section.section2{
 section.section2 > span > a{
     color: rgb(87, 85, 85);
     text-decoration: none;
-    padding-right: 3.5rem;
+    margin-right: 20px;
     padding-bottom: 25px;
     border-bottom: 1px solid rgba(58, 57, 57, 0.419);
 }
@@ -554,12 +562,22 @@ footer.footer > section > div.div2 > img:first-child{
         width: initial;
     }
 
-    section.section3 > .secondDiv{
+    section.section3.simple > .secondDiv{
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: center;
         margin-top: 3vw;
+        margin-left: 24vw;
+        width: 400px;   
+    }
+
+    section.section3 > .secondDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 13vw;
         margin-left: 24vw;
         width: 400px;   
     }
@@ -815,6 +833,17 @@ footer.footer > section > div.div2 > img:first-child{
     text-align: center;
     margin-top: 80px;
   }
+
+  section.section3.simple > .secondDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 13vw;
+    margin-left: 24vw;
+    width: 400px;   
+}
+
   
 } 
 
@@ -897,6 +926,17 @@ footer.footer > section > div.div2 > img:first-child{
     left: 11.9rem;
     z-index: -1;
   }
+
+  section.section3 > .secondDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25vw;
+    margin-left: 28vw;
+    width: 400px;   
+  }
+
 } 
 
 @media(max-width: 400px){
