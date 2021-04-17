@@ -3,6 +3,8 @@ const closeIcon = document.querySelector('.image2');
 const img = document.querySelectorAll('.img');
 const img1 = document.querySelectorAll('.img1');
 const nav = document.querySelector('nav');
+const firstHeader = document.querySelector('header.head');
+const secondHeader = document.querySelector('header.head1');
 const p = document.querySelectorAll('.par');
 const div = document.querySelector('.nav-links');
 const aLinks = document.querySelector('.nav-links').children;
@@ -24,6 +26,8 @@ harmburger.addEventListener('click', function(){
     div.classList.add('showLinks');
     div.classList.remove('display1');
     nav.classList.add('navBackground')
+    firstHeader.classList.add('display1')
+    secondHeader.classList.remove('display1')
     if(div){
         for(let i = 0; i < aLinks.length; i++){
             aLinks[i].classList.add('a');
@@ -43,6 +47,8 @@ closeIcon.addEventListener('click', function(){
     div.classList.remove('showLinks');
     div.classList.add('display1');
     nav.classList.remove('navBackground');
+    firstHeader.classList.remove('display1')
+    secondHeader.classList.add('display1')
 })
 
 firstDropdown.addEventListener('click', function(){
