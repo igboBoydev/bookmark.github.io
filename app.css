@@ -840,7 +840,7 @@ footer.footer > section > div.div2 > img:first-child{
     justify-content: center;
     text-align: center;
     margin-top: 13vw;
-    margin-left: 24vw;
+    margin-left: 30vw;
     width: 400px;   
 }
 
@@ -875,7 +875,7 @@ footer.footer > section > div.div2 > img:first-child{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin-left: 4rem;
+        margin-left: 6rem;
         width: 500px;
     }
 
