@@ -367,12 +367,12 @@ footer.footer > section > div.div1 >.span2 > a{
     margin-left: 2rem;
 }
 
-footer.footer > section > div.div2 > img{
+footer.footer > section > div.div2 > a > img{
     width: 18px;
     padding-top: 5px;
 }
 
-footer.footer > section > div.div2 > img:first-child{
+footer.footer > section > div.div2 > a > img:first-child{
     margin-right: 3rem;
 }
 
