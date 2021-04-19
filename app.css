@@ -192,18 +192,18 @@ section.section4 > div.div4 > div{
 }
 
 section.section4 > div.div4 > div.span4{
-    height: 52vh;
+    height: 340px;
 }
 
 
 section.section4 > div.div4 > div.span5{
     margin-top: 7rem;
-    height: 52vh;
+    height: 340px;
 }
 
 section.section4 > div.div4 > div.span6{
     margin-top: 11rem;
-    height: 52vh;
+    height: 340px;
 }
 
 section.section4 > div.div4 > div > p{
@@ -278,7 +278,7 @@ section.section5 > .div2 > div.span4 > h4{
 
 section.section5 > .div2 > .button{
     box-sizing: content-box;
-    width: fit-content;
+    width: 60px;
     margin-top: 40px;
     text-align: center;
     margin-left: 9rem;
