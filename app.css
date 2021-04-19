@@ -182,7 +182,7 @@ section.section4 > div.div4{
     margin-left: 5vw;
 }
 
-section.section4 > div.div4 > span{
+section.section4 > div.div4 > div{
     margin-top: 50px;
     margin-right: 3vw;
     padding: 3vw;
@@ -191,27 +191,27 @@ section.section4 > div.div4 > span{
     border-radius: 7px;
 }
 
-section.section4 > div.div4 > span.span4{
+section.section4 > div.div4 > div.span4{
     height: 52vh;
 }
 
 
-section.section4 > div.div4 > span.span5{
+section.section4 > div.div4 > div.span5{
     margin-top: 7rem;
     height: 52vh;
 }
 
-section.section4 > div.div4 > span.span6{
+section.section4 > div.div4 > div.span6{
     margin-top: 11rem;
     height: 52vh;
 }
 
-section.section4 > div.div4 > span > p{
+section.section4 > div.div4 > div > p{
     padding-bottom: 30px;
     border-bottom: 1px dotted hsl(229, 8%, 60%);
 }
 
-section.section4 > div.div4 > span > button{
+section.section4 > div.div4 > div > button{
     margin-top: 7px;
     border: 1px solid hsl(229, 8%, 60%);
     border-radius: .5rem;
@@ -239,33 +239,33 @@ section.section5 > .div2{
     margin-left: auto;
 }
 
-section.section5 > .div2 > span:first-child{
+section.section5 > .div2 > div:first-child{
     border-top: 1px solid hsl(229, 8%, 60%);
     margin-top: 20px;
 }
 
-section.section5 > .div2 > span{
+section.section5 > .div2 > div{
    border-bottom: 1px solid hsl(229, 8%, 60%);
    margin-right: 35vw;
 }
 
-section.section5 > .div2 > span > h4{
+section.section5 > .div2 > div > h4{
     display: inline-block;
 }
 
-section.section5 > .div2 > span.span1 > h4{
+section.section5 > .div2 > div.span1 > h4{
     margin-right: 14rem;
 }
 
-section.section5 > .div2 > span.span2 > h4{
+section.section5 > .div2 > div.span2 > h4{
     margin-right: 8rem;
 }
 
-section.section5 > .div2 > span.span3 > h4{
+section.section5 > .div2 > div.span3 > h4{
     margin-right: 13.3rem;
 }
 
-section.section5 > .div2 > span.span4 > h4{
+section.section5 > .div2 > div.span4 > h4{
     margin-right: 5.6rem;
 }
 
@@ -319,7 +319,7 @@ footer.footer > div.div > form > input::placeholder{
     text-align: center;
 }
 
-footer.footer > div.div > form > button{
+footer.footer > div.div > form > label{
     background: rgba(181, 45, 45, 0.939);
     margin-left: 10px;
     border: 1px solid rgba(181, 45, 45, 0.939);
@@ -597,7 +597,7 @@ footer.footer > section > div.div2 > a > img:first-child{
         margin: auto;
     }
 
-    section.section4 > div.div4 > span{
+    section.section4 > div.div4 > div{
         margin-top: 50px;
         padding: 3vw;
         border: 1px solid #fff;
@@ -612,27 +612,27 @@ footer.footer > section > div.div2 > a > img:first-child{
         width: 400px;   
     }
     
-    section.section4 > div.div4 > span.span4{
+    section.section4 > div.div4 > div.span4{
         height: 55vh;
     }
     
     
-    section.section4 > div.div4 > span.span5{
+    section.section4 > div.div4 > div.span5{
         margin-top: 3rem;
         height: 55vh;
     }
     
-    section.section4 > div.div4 > span.span6{
+    section.section4 > div.div4 > div.span6{
         margin-top: 3rem;
         height: 55vh;
     }
     
-    section.section4 > div.div4 > span > p{
+    section.section4 > div.div4 > div > p{
         padding-bottom: 30px;
         border-bottom: 1px dotted hsl(229, 8%, 60%);
     }
     
-    section.section4 > div.div4 > span > button{
+    section.section4 > div.div4 > div > button{
         margin-top: 7px;
         border: 1px solid hsl(229, 8%, 60%);
         border-radius: .5rem;
@@ -648,38 +648,34 @@ footer.footer > section > div.div2 > a > img:first-child{
         margin-left: 27vw;
     }
 
-    section.section5 > .div2 > span{
+    section.section5 > .div2 > div{
         border-bottom: 1px solid hsl(229, 8%, 60%);
         margin-right: 18vw;
     }
 
-    section.section5 > .div2 > span > h4{
+    section.section5 > .div2 > div > h4{
         display: inline-block;
     }
     
-     section.section5 > .div2 > span.span1 > h4{
+     section.section5 > .div2 > div.span1 > h4{
         margin-right: 14rem;
     }
     
-    section.section5 > .div2 > span.span2 > h4{
+    section.section5 > .div2 > div.span2 > h4{
         margin-right: 8rem;
     }
     
-    section.section5 > .div2 > span.span3 > h4{
+    section.section5 > .div2 > div.span3 > h4{
         margin-right: 13.3rem;
     }
     
-    section.section5 > .div2 > span.span4 > h4{
+    section.section5 > .div2 > div.span4 > h4{
         margin-right: 5.6rem;
     } 
     
 }
 
 @media(max-width: 740px){
-    .none{
-        display: inline;
-    }
-
     footer.footer > div.div {
         padding-top: 50px;
     }
@@ -697,19 +693,16 @@ footer.footer > section > div.div2 > a > img:first-child{
         padding: 20px 20px 20px 20px;
     }
     
-    footer.footer > div.div > form > button{
+    footer.footer > div.div > form > label{
         background: rgba(181, 45, 45, 0.939);
         margin-left: 0;
+        margin-top: 20px;
         margin-bottom: 70px;
         width: 80vw;
         border: 1px solid rgba(181, 45, 45, 0.939);
         color: #fff;
         border-radius: .5rem;
         padding: 20px;
-    }
-
-    footer.footer > div.div > form > button{
-        margin-top: 20px;
     }
 
     footer.footer > section{
@@ -759,30 +752,28 @@ footer.footer > section > div.div2 > a > img:first-child{
 }
 
 @media(max-width: 700px){
-
-
-    section.section5 > .div2 > span{
+    section.section5 > .div2 > div{
         border-bottom: 1px solid hsl(229, 8%, 60%);
         margin-right: 14vw;
     }
 
-    section.section5 > .div2 > span > h4{
+    section.section5 > .div2 > div > h4{
         display: inline-block;
     }
     
-     section.section5 > .div2 > span.span1 > h4{
+     section.section5 > .div2 > div.span1 > h4{
         margin-right: 12rem;
     }
     
-    section.section5 > .div2 > span.span2 > h4{
+    section.section5 > .div2 > div.span2 > h4{
         margin-right: 6rem;
     }
     
-    section.section5 > .div2 > span.span3 > h4{
+    section.section5 > .div2 > div.span3 > h4{
         margin-right: 11.3rem;
     }
     
-    section.section5 > .div2 > span.span4 > h4{
+    section.section5 > .div2 > div.span4 > h4{
         margin-right: 3.6rem;
     } 
 }
@@ -874,28 +865,28 @@ footer.footer > section > div.div2 > a > img:first-child{
         width: 500px;
     }
 
-    section.section5 > .div2 > span{
+    section.section5 > .div2 > div{
         border-bottom: 1px solid hsl(229, 8%, 60%);
         margin-right: 8vw;
     }
 
-    section.section5 > .div2 > span > h4{
+    section.section5 > .div2 > div > h4{
         display: inline-block;
     }
     
-     section.section5 > .div2 > span.span1 > h4{
+     section.section5 > .div2 > div.span1 > h4{
         margin-right: 14.5rem;
     }
     
-    section.section5 > .div2 > span.span2 > h4{
+    section.section5 > .div2 > div.span2 > h4{
         margin-right: 8.3rem;
     }
     
-    section.section5 > .div2 > span.span3 > h4{
+    section.section5 > .div2 > div.span3 > h4{
         margin-right: 13.5rem;
     }
     
-    section.section5 > .div2 > span.span4 > h4{
+    section.section5 > .div2 > div.span4 > h4{
         margin-right: 5.9rem;
     } 
 
@@ -903,7 +894,6 @@ footer.footer > section > div.div2 > a > img:first-child{
         margin-left: 10.9rem;
     }
 }
-
 
 @media(max-width: 530px){
     div.secondSecItem > img {
@@ -971,6 +961,17 @@ footer.footer > section > div.div2 > a > img:first-child{
     margin-right: 5vw;
     margin-left: 5rem;
   }
+
+  footer.footer > div.div > form > input::placeholder{
+    font-size: 15px;
+    color: rgb(187, 183, 183);
+    text-align: start;
+    padding: 5px 20px 20px 20px;
+  }
+
+  .none{
+    display: inline-block;
+ }
 }
 
 .attribution {
