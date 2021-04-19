@@ -281,7 +281,7 @@ section.section5 > .div2 > .button{
     width: fit-content;
     margin-top: 40px;
     text-align: center;
-    margin-left: 8rem;
+    margin-left: 9rem;
     background: hsl(229, 45%, 55%);
     color: rgba(255, 255, 255, 0.837);
     text-decoration: none;
@@ -646,6 +646,10 @@ footer.footer > section > div.div2 > a > img:first-child{
         justify-content: center;
         flex-direction: column;
         margin-left: 27vw;
+    }
+
+    section.section5 > .div2 > .button{
+        margin-left: 11rem;
     }
 
     section.section5 > .div2 > div{
